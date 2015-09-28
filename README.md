@@ -61,8 +61,10 @@ The analysis follows the following steps:
 
 Here the results of the analysis for the example dataset
 
-train on 800 instances, test on 202 instances
-Most Informative Features
+train on 800 instances, test on 202 instances.
+Most Informative Features:
+
+
 | contains check |  True  |          positi : negati |    200.3 : 1.0| 
 | contains free |  True   |         positi : negati |    200.3 : 1.0| 
 | contains bi |  True     |       positi : negati |   199.7 : 1.0| 
