@@ -59,22 +59,23 @@ The analysis follows the following steps:
 
 # Results
 
-Here the results of the analysis for the example dataset
+Here the results of the analysis for the example, train dataset of 800 instances, test dataset of 202 instances.
 
-train on 800 instances, test on 202 instances.
-Most Informative Features:
+## Most Informative Features:
 
 
-- contains check =  True  ;  positi : negati  =   200.3 : 1.0| 
-- contains free = True    ;    positi : negati =    200.3 : 1.0| 
-- contains bi =  True     ;       positi : negati =   199.7 : 1.0| 
-- contains thx = True     ;       positi : negati =     199.7 : 1.0| 
-- contains do =  True    ;       positi : negati =    125.7 : 1.0| 
-- contains hurry =  True ;          positi : negati =      81.7 : 1.0| 
-- contains hi =  True    ;        positi : negati =     39.9 : 1.0| 
-- contains wanna =  True  ;          positi : negati =      20.8 : 1.0| 
-- contains ios =  True   ;         negati : positi =      12.2 : 1.0| 
-- contains don =  True   ;         negati : positi =     11.7 : 1.0| 
+- contains check =  True  ;  positive : negative  =   200.3 : 1.0
+- contains free = True    ;    positive : negative =    200.3 : 1.0
+- contains bi =  True     ;       positive : negative =   199.7 : 1.0
+- contains thx = True     ;       positive : negative =     199.7 : 1.0 
+- contains do =  True    ;       positive : negative =    125.7 : 1.0
+- contains hurry =  True ;          positive : negative =      81.7 : 1.0 
+- contains hi =  True    ;        positive : negative =     39.9 : 1.0
+- contains wanna =  True  ;          positive : negative =      20.8 : 1.0
+- contains ios =  True   ;         negative : positive =      12.2 : 1.0
+- contains don =  True   ;         negative : positive =     11.7 : 1.0 
+
+## Metrics
 
 - pos precision: 1.0
 - pos recall: 0.693069306931
