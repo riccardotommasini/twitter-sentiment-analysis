@@ -81,6 +81,6 @@ neg precision: 0.765151515152
 neg recall: 1.0
 neg F-measure: 0.8669527897
 
-
+To complete this experiment I followed the guided at [Link1](http://ravikiranj.net/posts/2012/code/how-build-twitter-sentiment-analyzer/#implementation-details) and [Link2](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
 
 
