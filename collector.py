@@ -26,53 +26,10 @@ retweets_re = re.compile(r'^RT\s')
 enc = lambda x: x.encode('latin1', errors='ignore')
 
 
-def fold(f,l,a):
-	"""
-		f: the function to apply
-		l: the list to apply the function on
-		a: the initial value
-	"""
-	return a if(len(l)==0) else fold(f,l[1:],f(a, l[0]))
-	
-
 def print_debug(er,msg):
 	if DEBUG:
 		print "Error: ", er
 		print "Message: < %s >" % msg
-
-
-class SimpleListener(StreamListener):
-
-	def on_data(self,data):
-		tweet = json.loads(data, encoding='utf-8')
-		print "-" * 10
-
-		tweet_id = tweet['id']
-		user_id = enc(tweet['user']['name'])
-		text 	 = enc(tweet['text'])
-		lang 	 = enc(tweet['lang'])
-		
-		if not (fold(lambda x, y: x or y, [k.lower() in text.lower() for k in keywords], False)):	
-			print tweet
-		
-		print "ID:", tweet_id
-		print "USER:", user_id
-		print "TEXT:", text
-		print "LANG: ", lang
-		print "Contains :)", (':)' in text)
-		print "Contains :(", (':(' in text)
-
-
-		for k in keywords:
-			contained = k.lower() in text.lower()
-			print "Contains %s: %r" % (k, contained)
-
-
-
-	def on_error(self, status):	
-		print('status: %s' % status)
-
-
 
 
 class EmoticonListener(StreamListener):
