@@ -63,23 +63,23 @@ Here the results of the analysis for the example dataset
 
 train on 800 instances, test on 202 instances
 Most Informative Features
-          contains check = True           positi : negati =    200.3 : 1.0
-           contains free = True           positi : negati =    200.3 : 1.0
-             contains bi = True           positi : negati =    199.7 : 1.0
-            contains thx = True           positi : negati =    199.7 : 1.0
-             contains do = True           positi : negati =    125.7 : 1.0
-          contains hurry = True           positi : negati =     81.7 : 1.0
-             contains hi = True           positi : negati =     39.9 : 1.0
-          contains wanna = True           positi : negati =     20.8 : 1.0
-            contains ios = True           negati : positi =     12.2 : 1.0
-            contains don = True           negati : positi =     11.7 : 1.0
+| contains check |  True  |          positi : negati |    200.3 : 1.0| 
+| contains free |  True   |         positi : negati |    200.3 : 1.0| 
+| contains bi |  True     |       positi : negati |   199.7 : 1.0| 
+| contains thx |  True   |         positi : negati |     199.7 : 1.0| 
+| contains do |  True    |        positi : negati |    125.7 : 1.0| 
+| contains hurry |  True  |          positi : negati |      81.7 : 1.0| 
+| contains hi |  True    |        positi : negati |     39.9 : 1.0| 
+| contains wanna |  True  |          positi : negati |      20.8 : 1.0| 
+| contains ios |  True   |         negati : positi |      12.2 : 1.0| 
+| contains don |  True   |         negati : positi |      11.7 : 1.0| 
 
-pos precision: 1.0
-pos recall: 0.693069306931
-pos F-measure: 0.818713450292
-neg precision: 0.765151515152
-neg recall: 1.0
-neg F-measure: 0.8669527897
+- pos precision: 1.0
+- pos recall: 0.693069306931
+- pos F-measure: 0.818713450292
+- neg precision: 0.765151515152
+- neg recall: 1.0
+- neg F-measure: 0.8669527897
 
 To complete this experiment I followed the guided at [Link1](http://ravikiranj.net/posts/2012/code/how-build-twitter-sentiment-analyzer/#implementation-details) and [Link2](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
 
