@@ -61,9 +61,9 @@ if __name__ == '__main__':
 	cutoff = 0
 
 	if(len(neg_tweets) > len(pos_tweets)):
-		cutoff = len(pos_tweets)*5/6
+		cutoff = len(pos_tweets)*4/5
 	else:
-		cutoff = len(neg_tweets)*5/6
+		cutoff = len(neg_tweets)*4/5
  
 	tweets = neg_tweets[:cutoff] + pos_tweets[:cutoff]
 	test_tweets = neg_tweets[cutoff:] + pos_tweets[cutoff:]
